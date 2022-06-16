@@ -48,9 +48,9 @@ const Login = () => {
                             <h5> or Sign up with</h5>
                             <div className='socIcons'>
                                 <a href=''><i class="fa-brands fa-google"></i></a>
-                                <a href=''><i class="fa-brands fa-google"></i></a>
-                                <a href=''><i class="fa-brands fa-google"></i></a>
-                                <a href=''><i class="fa-brands fa-google"></i></a>
+                                <a href=''><i class="fa-solid fa-envelope"></i></a>
+                                <a href=''><i class="fa-brands fa-facebook"></i></a>
+                                <a href=''><i class="fa-brands fa-linkedin"></i></a>
                             </div>
                         </div>
               </div>
