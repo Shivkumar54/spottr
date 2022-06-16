@@ -1,0 +1,101 @@
+.loginRoot{
+    display: flex;
+    gap: 50px;
+    align-items: center
+}
+
+.navform{
+    height: 7vh;
+    box-shadow:none;
+}
+
+.imageLogin{
+    width: 100%;
+}
+.imageLogin img{
+    width: 100%;
+}
+.formRoot{
+    width: 100%;
+}
+.logForm{
+    width: 60%;
+    height: 90vh;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+form{
+    align-items:center;
+    margin-bottom: 10px;
+}
+form input{
+    width: 80%;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.logImg img{
+    width: 80px;
+    padding: 20px 0;
+}
+
+.bttn{
+    width: 60%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hori{
+    display: block;
+}
+
+.social h5{
+    font-size: 15px;
+}
+.socIcons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.socIcons i{
+    color:#263238;
+}
+.socIcons i:hover{
+    color:#FFC727
+}
+
+.forgot{
+    text-decoration: none;
+    color:#263238 ;
+}
+
+/* #FFC727 yellow */
+
+/* #263238 */
+
+@media screen and (max-width:768px) {
+
+    
+
+    .loginRoot{
+        display: block;
+        gap: 50px;
+        align-items: center
+    }
+    .imageLogin{
+        display: none;   
+     }
+     .formRoot{
+        width:100%
+     }
+     .logForm{
+        width: 100%;
+     }
+    
+}
