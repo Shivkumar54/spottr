@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Logo from "../../Images/logooo.png"
 import "./login.css"
-import LoginImage from "../..//Images/loogin.png"
+import LoginImage from "../..//Images/fixx-removebg.png"
 
 const Login = () => {
     return (
@@ -22,9 +22,18 @@ const Login = () => {
         {/* // Login Duplicate  */}
 
 
-            <div className='loginRoot '>
+            <div className='root'>
+            <div className='loginRoot container '>
             <div className='imageLogin'>
-              <img src={LoginImage} />
+                    <div className='imageflexer'>
+                        <h2>Spottr </h2>
+                        <img src={LoginImage} />
+              </div>
+                    <h3>Welcome you back </h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                        sed diam voluptua.</p>
+                    
           </div>
 
                 <div className='formRoot'>
@@ -56,6 +65,7 @@ const Login = () => {
               </div>
                 </div>
 
+            </div>
             </div>
 
          
