@@ -5,6 +5,7 @@
     padding:10px 40px ;
     flex-direction: row-reverse;
     margin-bottom: 50px;
+    margin-top: 10px;
 
 }
 
@@ -38,12 +39,23 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
 }
+
+
+@media screen and (max-width:1020px){
+    .header-text h1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+}
+
+
 @media screen and (max-width:768px){
     .header{
         width: 100%;
         display: block;
         align-items: center;
-        padding:10px 30px;
+        padding:15px 30px;
         margin-bottom: 50px;
     }
     .header-text h1{

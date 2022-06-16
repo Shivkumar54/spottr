@@ -22,8 +22,10 @@
 @media screen and (max-width:1020px){
 
     .nav{
-    height: 10vh;
-        padding: 5px 30px;
+    height: 6vh;
+    padding: 15px 30px;
+    box-shadow:none; 
+
     
     }
     .nav-img img{
