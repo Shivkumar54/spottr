@@ -1,0 +1,26 @@
+.sub{
+    display:flex;
+}
+.subimg{
+    width: 100%;
+}
+.subimg img{ 
+    width: 100%;
+}
+.subText{
+    width: 100%;
+    padding: 10px 0;
+}
+.subText input{
+    width: 100%;
+    padding: 10px 16px ;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:768px){
+    .sub{
+        display:block;
+    }
+}

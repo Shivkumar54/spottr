@@ -1,0 +1,64 @@
+.menu-items{
+    width: 100%;
+    margin-bottom: 150px;
+    
+}
+
+.main-title{
+    width: 100%;
+}
+
+.item1 img{
+    border-radius: 5px;
+    width:350px;
+    height: 250px;
+}
+
+.RootImage{
+    position: relative;
+}
+
+.floater{
+    position: absolute;
+    background-color: white;
+    font-size: 15px;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+.texter h1{
+    margin-bottom: 10px;
+}
+.texter p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.buttons{
+    gap: 20px;
+}
+.buttons button{
+    padding:10px 20px;
+
+}
+
+/* #FFC727 yellow */
+
+/* #263238 */
+
+.buttons .enq{
+    border: 2px solid #FFC727;
+    border-radius: 5px;
+    background-color: white;
+}
+
+@media screen and (max-width:768px){
+    .menu-items{
+        width: 100%;
+        margin-bottom: 80px;
+        
+    }
+}
