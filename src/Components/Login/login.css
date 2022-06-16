@@ -80,6 +80,19 @@ form input{
 
 /* #263238 */
 
+@media screen and (max-width:1020px) {
+    .loginRoot{
+        gap: 50px;
+    }
+    
+    .logForm{
+        width: 90%;
+    }
+    
+}
+
+
+
 @media screen and (max-width:768px) {
 
     
